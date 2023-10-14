@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@100;300;400&display=swap");
+
+:root {
+  --light-blue: #95cfff;
+  --dark-blue: #005396;
+  --orange: #ff8928;
+  --light-gray: #cfcfcf;
+  --dark-gray: #7f7f7f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+.banner-area {
+  background-image: url("./images/Woman-training.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 5vh 5vw;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-menu li {
+  margin: 0 2vw;
+  list-style: none;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+.nav-menu li a:hover {
+  color: var(--orange);
+  font-size: 1.5em;
+}
+
+button {
+  top: 50%;
+  background-color: var(--dark-blue);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 20px 40px;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: var(--orange);
+}
+
+.banner-content {
+  text-align: center;
+  margin: 20vh;
+}
+
+.banner-content p {
+  color: var(--orange);
+  font-family: "Anton", sans-serif;
+}
+
+.banner-content h1 {
+  font-family: "Anton", sans-serif;
+  font-size: 4em;
+  padding: 5vh 0;
+  color: white;
+  text-transform: uppercase;
+}
+
+.banner-content button {
+  background-color: var(--orange);
+}
+
+.banner-content button:hover {
+  background-color: var(--dark-blue);
+  color: white;
+}
+
+.content-01,
+.content-02,
+.content-03 {
+  padding: 20vh 10vw;
+}
+
+.content-01,
+.content-02 {
+  background-color: var(--light-gray);
+}
+
+#content-01-image {
+  width: 600px;
+  height: 600px;
+  display: inline;
+  float: left;
+  margin-right: 50px;
+  object-fit: cover;
+  background: url(./images/Gym-equipmentroom.jpg) 50% 50% no-repeat;
+}
+
+p {
+  font-size: 1.6em;
+  font-weight: 300;
+}
+
+h2 {
+  font-family: "Anton", sans-serif;
+  font-size: 3em;
+}
+
+.content-01-text p {
+  font-weight: 300;
+  margin: 50px 0;
+}
+
+.content-02 {
+  padding-bottom: 400px;
+}
+
+.content-02 div ul {
+  padding-top: 50px;
+}
+
+.content-02 div ul li {
+  padding-bottom: 20px;
+  list-style-position: inside;
+  font-weight: 300;
+  font-size: 1.6em;
+}
+
+.content-02-images {
+  display: inline;
+  float: right;
+}
+
+.content-02-images img {
+  width: 200px;
+  height: 600px;
+  object-fit: cover;
+}
+
+.content-03 {
+  background-color: var(--dark-blue);
+}
+
+.content-03 h2 {
+  text-align: center;
+  color: var(--light-blue);
+  padding-bottom: 9vh;
+}
+
+.content-03 div {
+  display: flex;
+  flex-direction: row;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  margin: 0 2vw;
+  flex-direction: column;
+  text-align: center;
+}
+
+.profile-container div img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.content-03 div div {
+  background-color: white;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px 30px;
+  border-radius: 5%;
+}
+
+.content-03 div div p {
+  padding: 30px 0;
+  font-size: 1em;
+}
+
+footer {
+  font-family: "Anton", sans-serif;
+  color: var(--orange);
+  text-align: center;
+  padding: 5vh 0;
+  background-color: var(--light-gray);
+}

@@ -1,0 +1,22 @@
+.banner-area {
+  background-image: url("../images/Guy-Woman-Workout.jpg");
+}
+
+section {
+  background-color: var(--dark-gray);
+}
+
+.section-header {
+  text-align: center;
+  padding: 15vh 0 8vh;
+  color: white;
+}
+
+p {
+  padding: 0 15vw;
+  text-align: center;
+  color: white;
+}
+
+.plans-container {
+}
