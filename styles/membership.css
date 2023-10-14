@@ -30,7 +30,7 @@ section p {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-color: var(--light-gray);
+  background-color: white;
   padding: 60px 80px 70px 80px;
   text-align: center;
   width: 300px;
