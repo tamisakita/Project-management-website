@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Van Core Fitness Website</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="../styles/locations.css" />
+    <link rel="icon" type="image/x-icon" href="/images/Logo-Favicon.png" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <header class="banner-area">
+      <nav>
+        <div class="logo">
+          <img
+            src="../images/Logo-Orange.png"
+            alt="orange-logo"
+            width="200wv"
+          />
+        </div>
+        <ul class="nav-menu">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="#">Locations</a></li>
+          <li><a href="">Classes</a></li>
+          <li><a href="../pages/membership.html">Membership</a></li>
+          <li><a href="../pages/about-us.html">About Us</a></li>
+          <li><a href="">Contact Us</a></li>
+        </ul>
+        <button>Join Now</button>
+      </nav>
+
+      <div class="banner-content">
+        <h1>FIND YOUR CLUB</h1>
+      </div>
+    </header>
+
+    <section class="container-1">
+      <h2>Select your closest gym</h2>
+      <div class="gyms-container">
+        <div class="gym-box">
+          <div>
+            <img src="../images/cambie.jpg" alt="cambie-gym" />
+            <h3>Cambie</h3>
+          </div>
+
+          <p>752 West 12th Avenue, Vancouver BC V5Z 3X7</p>
+          <button class="location-btn" id="cambie-btn">view HOURS</button>
+        </div>
+        <div class="gym-box">
+          <div>
+            <img src="../images/kingsway.jpg" alt="kingsway-gym" />
+            <h3>Kingsway</h3>
+          </div>
+          <p>752 West 12th Avenue, Vancouver BC V5Z 3X7</p>
+          <button class="location-btn" id="kingsway-btn">view HOURS</button>
+        </div>
+        <div class="gym-box">
+          <div>
+            <img src="../images/kitsilano.jpg" alt="kitsilano-gym" />
+            <h3>Kitsilano</h3>
+          </div>
+          <p>752 West 12th Avenue, Vancouver BC V5Z 3X7</p>
+          <button class="location-btn" id="kitslano-btn">view HOURS</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="cambie" style="display: none">
+      <div class="container-2">
+        <div class="container-2-left">
+          <h2>Cambie</h2>
+          <p>752 West 12th Avenue, Vancouver BC V5Z 3X7</p>
+          <p>604-555-6262</p>
+          <p>van-core-fitness@gmail.ca</p>
+          <h3>Hours</h3>
+          <div class="gym-hour">
+            <ul>
+              <li>Monday</li>
+              <li>Tuesday</li>
+              <li>Wednesday</li>
+              <li>Thursday</li>
+              <li>Friday</li>
+              <li>Saturday</li>
+              <li>Sunday</li>
+              <li>Holidays</li>
+            </ul>
+            <ul>
+              <li>6am-10pm</li>
+              <li>6am-10pm</li>
+              <li>6am-10pm</li>
+              <li>6am-10pm</li>
+              <li>6am-10pm</li>
+              <li>6am-10pm</li>
+              <li>8am-9pm</li>
+              <li>8am-9pm</li>
+            </ul>
+          </div>
+        </div>
+
+        <img
+          class="map-image"
+          src="../images/cambie-location.png"
+          alt="cambie-map"
+        />
+      </div>
+      <p class="location-description">
+        Located on Cambie, Vancouver BC, Van-Core-Fitness offers a large range
+        of classes and fitness equipment for all fitness levels. Whether you
+        like to get a good morning run in on the treadmill, pump some weights or
+        even take a relaxing yoga class, we have you covered for all your
+        fitness needs. At this location we offer 2 hours of free parking that
+        will allow you to focus on your gym workout stress-free.
+      </p>
+    </section>
+
+    <section id="kingsway" style="display: none">
+      <div class="container-2">
+        <div class="container-2-left">
+          <h2>Kingsway</h2>
+          <p>1100 Kingsway, Burnaby BC V5H 2G2</p>
+          <p>604-123-4567</p>
+          <p>van-core-fitness@gmail.com</p>
+          <h3>Hours</h3>
+          <div class="gym-hour">
+            <ul>
+              <li>Monday</li>
+              <li>Tuesday</li>
+              <li>Wednesday</li>
+              <li>Thursday</li>
+              <li>Friday</li>
+              <li>Saturday</li>
+              <li>Sunday</li>
+              <li>Holidays</li>
+            </ul>
+            <ul>
+              <li>6am-10pm</li>
+              <li>6am-10pm</li>
+              <li>6am-10pm</li>
+              <li>6am-10pm</li>
+              <li>6am-10pm</li>
+              <li>6am-10pm</li>
+              <li>6am-10pm</li>
+              <li>8am-9pm</li>
+            </ul>
+          </div>
+        </div>
+
+        <img
+          class="map-image"
+          src="../images/kingsway-location.png"
+          alt="kingsway-map"
+        />
+      </div>
+      <p class="location-description">
+        Located on Kingsway, Burnaby BC, Van-Core-Fitness offers a large range
+        of classes and fitness equipment for all fitness levels. Whether you
+        like to get a good morning run in on the treadmill, pump some weights or
+        even take a relaxing yoga class, we have you covered for all your
+        fitness needs. This is one of our biggest locations, and features a
+        women’s only workout area.
+      </p>
+    </section>
+
+    <section id="kitslano" style="display: none">
+      <div class="container-2">
+        <div class="container-2-left">
+          <h2>Kitsilano</h2>
+          <p>2150 West Broadway, Vancouver BC V6K 4L9</p>
+          <p>604-321-7654</p>
+          <p>van-core-fitness@gmail.com</p>
+          <h3>Hours</h3>
+          <div class="gym-hour">
+            <ul>
+              <li>Monday</li>
+              <li>Tuesday</li>
+              <li>Wednesday</li>
+              <li>Thursday</li>
+              <li>Friday</li>
+              <li>Saturday</li>
+              <li>Sunday</li>
+              <li>Holidays</li>
+            </ul>
+            <ul>
+              <li>6am-10pm</li>
+              <li>6am-10pm</li>
+              <li>6am-10pm</li>
+              <li>6am-10pm</li>
+              <li>6am-10pm</li>
+              <li>6am-10pm</li>
+              <li>6am-10pm</li>
+              <li>8am-9pm</li>
+            </ul>
+          </div>
+        </div>
+
+        <img
+          class="map-image"
+          src="../images/kitslano-location.png"
+          alt="kitslano-map"
+        />
+      </div>
+      <p class="location-description">
+        Located in Kitsilano, Vancouver BC Van-Core-Fitness offers a large range
+        of classes and fitness equipment for all fitness levels. Whether you
+        like to get a good morning run in on the treadmill, pump some weights or
+        even take a relaxing yoga class, we have you covered for all your
+        fitness needs. This is the home to our very first gym! Located right
+        near the beach and looking over the water and the beautiful mountains.
+        This gym has all the perks of being the gym from heaven.
+      </p>
+    </section>
+
+    <section class="container-3">
+      <h2>Our Amenities</h2>
+      <div class="amenities-box container-3-top">
+        <div class="amenities-detail">
+          <img src="../images/lockers.jpg" alt="lockers-area" />
+          <h3>Lockers</h3>
+        </div>
+        <div class="amenities-detail">
+          <img src="../images/hydro-massage.jpg" alt="hydro-massage" />
+          <h3>Hydro Massage</h3>
+        </div>
+
+        <div class="amenities-detail">
+          <img src="../images/Stretch-zone.jpg" alt="Stretch-zone" />
+          <h3>Stretch Zone</h3>
+        </div>
+
+        <div class="amenities-detail">
+          <img src="../images/Tanning.jpg" alt="Tanning" />
+          <h3>Tanning</h3>
+        </div>
+      </div>
+
+      <div class="amenities-box container-3-bottom">
+        <div class="amenities-detail">
+          <img src="../images/shower.jpg" alt="showers" />
+          <h3>Showers</h3>
+        </div>
+
+        <div class="amenities-detail">
+          <img src="../images/Personal Trainer.jpg" alt="personal-trainer" />
+          <h3>Personal Trainer Zone</h3>
+        </div>
+
+        <div class="amenities-detail">
+          <img src="../images/Class Studios.jpg" alt="class-studios" />
+          <h3>Class Studios</h3>
+        </div>
+
+        <div class="amenities-detail">
+          <img src="../images/womans-only.jpg" alt="womans-talking" />
+          <h3>Women’s Only Area</h3>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="logo-footer">
+        <img
+          src="../images/Logo-Darker Gray.png"
+          alt="dark-blue-logo"
+          width="150em"
+        />
+      </div>
+      <p>Discover Your Strength. <br />Shape Your Story</p>
+    </footer>
+    <script>
+      $(".location-btn").on("click", function () {
+        let id = $(this).attr("id");
+
+        if (id == "cambie-btn") {
+          $("section[id=cambie]").show();
+          $("section[id=kingsway]").hide();
+          $("section[id=kitslano]").hide();
+        } else if (id == "kingsway-btn") {
+          $("section[id=kingsway]").show();
+          $("section[id=cambie]").hide();
+          $("section[id=kitslano]").hide();
+        } else if (id == "kitslano-btn") {
+          $("section[id=kitslano]").show();
+          $("section[id=cambie]").hide();
+          $("section[id=kingsway]").hide();
+        }
+      });
+    </script>
+
+    <!-- <script src="../scripts/locations.js"></script> -->
+  </body>
+</html>

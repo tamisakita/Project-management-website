@@ -1,0 +1,141 @@
+.banner-area {
+  background-image: url(../images/sven-mieke-MsCgmHuirDo-unsplash.jpg);
+}
+
+.gyms-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: var(--light-gray);
+  padding: 10vh;
+}
+
+h2 {
+  text-align: center;
+  background-color: var(--light-gray);
+  padding-top: 10vh;
+  color: var(--dark-blue);
+}
+
+.gym-box {
+  text-align: center;
+}
+
+.gym-box div {
+  position: relative;
+}
+
+.gym-box div h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-family: "Anton", sans-serif;
+  font-size: 2em;
+}
+
+.gym-box p {
+  padding: 5vh;
+}
+
+.gym-box img {
+  width: 350px;
+  height: 270px;
+  object-fit: cover;
+  opacity: 50%;
+}
+
+.container-2 {
+  display: flex;
+  padding: 10vh;
+  background-color: var(--light-gray);
+  justify-content: space-between;
+}
+
+.container-2-left h2 {
+  padding-top: 0;
+  padding-bottom: 4vh;
+}
+
+.container-2-left p {
+  font-size: 2em;
+}
+
+.container-2-left h3 {
+  text-align: center;
+  font-size: 2em;
+  padding-top: 4vh;
+}
+
+.gym-hour {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gym-hour ul li {
+  list-style: none;
+  font-size: 1.5em;
+  padding-top: 2vh;
+}
+
+.location-description {
+  background-color: var(--light-gray);
+  padding: 10vh;
+}
+
+.map-image {
+  height: 45em;
+  object-fit: cover;
+}
+
+.container-3 {
+  background-color: var(--dark-gray);
+  padding-bottom: 10vh;
+}
+
+.container-3 h2 {
+  background-color: var(--dark-gray);
+  color: white;
+  padding-bottom: 10vh;
+}
+
+.amenities-box {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding: 2vh 8vw;
+}
+
+.amenities-box img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  filter: grayscale(100%);
+}
+
+.amenities-detail {
+  position: relative;
+}
+
+.amenities-detail h3 {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--orange);
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+
+/* #cambie {
+  display: none;
+}
+
+#kitslano {
+  display: none;
+}
+
+#kingsway {
+  display: none;
+} */
