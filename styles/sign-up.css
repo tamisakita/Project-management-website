@@ -1,0 +1,90 @@
+header {
+  background-color: var(--orange);
+  height: 40vh;
+}
+
+h1 {
+  font-family: "Anton", sans-serif;
+  font-size: 4em;
+  padding: 5vh 0;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+section {
+  padding: 10vh 20vw;
+}
+
+.form-container {
+  display: flex;
+
+  gap: 20px;
+}
+
+.form-box {
+  width: 50%;
+}
+
+input {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  color: black;
+  font-size: 13px;
+}
+
+form p {
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+
+.submit-form {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.checkbox {
+  width: 25px;
+}
+
+.select {
+  padding-top: 2vh;
+}
+
+.submit-btn {
+  top: 50%;
+  background-color: var(--dark-blue);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 20px 220px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.agree-checkbox {
+  padding-top: 7vh;
+  padding-bottom: 7vh;
+}
+
+.submit-btn {
+  top: 50%;
+  background-color: var(--dark-blue);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 20px 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 700;
+  display: block;
+  text-align: center;
+}

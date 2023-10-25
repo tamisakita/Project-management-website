@@ -1,0 +1,43 @@
+.banner-area {
+  background-image: url(../images/victor-freitas-KkYWWpurqbE-unsplash.jpg);
+}
+
+section {
+  background-color: var(--dark-gray);
+}
+
+h2 {
+  color: var(--dark-blue);
+  padding: 20px;
+}
+
+.container {
+  padding: 15vh;
+}
+
+.box {
+  display: flex;
+}
+
+.class-box img {
+  width: 50vmin;
+  height: 50vmin;
+  object-fit: cover;
+  filter: grayscale(100%);
+}
+
+.class-box {
+  background-color: white;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10vh;
+  margin: 3vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn {
+  margin-top: 6vh;
+}
