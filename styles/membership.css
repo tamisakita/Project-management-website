@@ -12,11 +12,55 @@ section {
   color: white;
 }
 
-p {
+section p {
   padding: 0 15vw;
   text-align: center;
   color: white;
 }
 
 .plans-container {
+  display: flex;
+  flex-direction: row;
+  padding: 20vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.plan-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: white;
+  padding: 60px 80px 70px 80px;
+  text-align: center;
+  width: 300px;
+  height: 550px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.plan-box h2 {
+  color: var(--orange);
+}
+
+.plan-box h3 {
+  font-family: "Anton", sans-serif;
+  color: var(--dark-gray);
+  font-size: 40px;
+  padding-bottom: 40px;
+}
+
+.middle {
+  height: 650px;
+  z-index: 4;
+}
+
+.plans-container div ul {
+  list-style: none;
+  padding: 40px 0;
+}
+
+.plans-container div ul li {
+  padding-bottom: 20px;
+  font-size: 1.2em;
+  font-weight: 400;
 }

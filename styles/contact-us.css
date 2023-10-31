@@ -1,0 +1,116 @@
+.banner-area {
+  background-image: url(../images/victor-freitas-Gqae1CkM9ig-unsplash.jpg);
+}
+
+.gyms-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10vh;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 10vh;
+  color: var(--dark-blue);
+}
+
+h3 {
+  padding: 2vh;
+}
+
+h4 {
+  padding-top: 8vh;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.gym-box {
+  text-align: center;
+}
+
+.gym-box div h3 {
+  top: 50%;
+  left: 50%;
+  font-family: "Anton", sans-serif;
+  font-size: 2em;
+}
+
+.gym-box p {
+  font-size: 1rem;
+}
+
+.gym-box img {
+  width: 50vh;
+  height: 30vh;
+  object-fit: cover;
+}
+
+.info {
+  text-align: justify;
+}
+
+.container-2 h4 {
+  background-color: white;
+  color: var(--orange);
+}
+
+.contact-image {
+  background-image: url("../images/sven-mieke-jO6vBWX9h9Y-unsplash.jpg");
+  width: 70vmin;
+  height: 70vmin;
+  background-position: center center;
+  background-size: cover;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 8vh 15vw;
+}
+
+form {
+  width: 40%;
+}
+
+input,
+select,
+textarea {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  color: black;
+  font-size: 13px;
+}
+
+form p {
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+
+.submit-form {
+  width: 100%;
+  margin-top: 50px;
+}
+
+#checkbox {
+  width: 25px;
+}
+
+.submit-btn {
+  top: 50%;
+  background-color: var(--dark-blue);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 20px 220px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 700;
+}
