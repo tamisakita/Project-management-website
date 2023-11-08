@@ -10,7 +10,7 @@ This was a project for the Project Management subject of the New Media Design an
 * CSS
 * Javascript
 
-## Team
+### Team
 
 Our team was made up of:
 
