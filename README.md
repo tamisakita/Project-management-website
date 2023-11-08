@@ -2,7 +2,7 @@
  
 ## About The Project
 
-This was a project for the Project Management subject of the New Media Design and Web Development Course at BCIT.
+This was a project for the Project Management subject of the New Media Design and Web Development Course at BCIT. And the goal of this project was to work with Scrum to deliver a website in 5 weeks.
 
 ### Built With
 
