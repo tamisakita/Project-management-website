@@ -5,10 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Van Core Fitness Website</title>
+    <link rel="icon" type="image/x-icon" href="/images/Logo-Favicon.png" />
     <link rel="stylesheet" href="../styles.css" />
     <link rel="stylesheet" href="../styles/locations.css" />
-    <link rel="icon" type="image/x-icon" href="/images/Logo-Favicon.png" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
   <body>
     <header class="banner-area">
@@ -57,7 +56,7 @@
             <img src="../images/kingsway.jpg" alt="kingsway-gym" />
             <h3>Kingsway</h3>
           </div>
-          <p>752 West 12th Avenue, Vancouver BC V5Z 3X7</p>
+          <p>1100 Kingsway, Burnaby BC V5H 2G2</p>
           <button class="location-btn" id="kingsway-btn">VIEW HOURS</button>
         </div>
         <div class="gym-box">
@@ -65,7 +64,7 @@
             <img src="../images/kitsilano.jpg" alt="kitsilano-gym" />
             <h3>Kitsilano</h3>
           </div>
-          <p>752 West 12th Avenue, Vancouver BC V5Z 3X7</p>
+          <p>2150 West Broadway, Vancouver BC V6K 4L9</p>
           <button class="location-btn" id="kitslano-btn">VIEW HOURS</button>
         </div>
       </div>
@@ -103,11 +102,7 @@
           </div>
         </div>
 
-        <img
-          class="map-image"
-          src="../images/cambie-location.png"
-          alt="cambie-map"
-        />
+        <div id="map" style="width: 45em; height: 45em"></div>
       </div>
       <p class="location-description">
         Located on Cambie, Vancouver BC, Van-Core-Fitness offers a large range
@@ -151,11 +146,7 @@
           </div>
         </div>
 
-        <img
-          class="map-image"
-          src="../images/kingsway-location.png"
-          alt="kingsway-map"
-        />
+        <div id="map_2" style="width: 45em; height: 45em"></div>
       </div>
       <p class="location-description">
         Located on Kingsway, Burnaby BC, Van-Core-Fitness offers a large range
@@ -199,11 +190,7 @@
           </div>
         </div>
 
-        <img
-          class="map-image"
-          src="../images/kitslano-location.png"
-          alt="kitslano-map"
-        />
+        <div id="map_3" style="width: 45em; height: 45em"></div>
       </div>
       <p class="location-description">
         Located in Kitsilano, Vancouver BC Van-Core-Fitness offers a large range
@@ -272,6 +259,7 @@
       </div>
       <p>Discover Your Strength. <br />Shape Your Story</p>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
       $(".location-btn").on("click", function () {
         let id = $(this).attr("id");
@@ -291,7 +279,10 @@
         }
       });
     </script>
-
-    <!-- <script src="../scripts/locations.js"></script> -->
+    <script
+      async
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdZDLYRQB5c-1IQVmjUO_MqPFFuYQgiBY&callback=initMap"
+    ></script>
+    <script src="../scripts/maps.js"></script>
   </body>
 </html>
