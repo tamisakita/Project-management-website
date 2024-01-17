@@ -6,13 +6,11 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  /* background-color: var(--light-gray); */
   padding: 10vh;
 }
 
 h2 {
   text-align: center;
-  /* background-color: var(--light-gray); */
   padding-top: 10vh;
   color: var(--dark-blue);
 }
@@ -82,11 +80,6 @@ h2 {
 .location-description {
   background-color: var(--light-gray);
   padding: 10vh;
-}
-
-.map-image {
-  height: 45em;
-  object-fit: cover;
 }
 
 .container-3 {
